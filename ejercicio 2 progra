@@ -1,0 +1,15 @@
+function imprimir()
+	{
+		if(window.print) window.print()
+			else alert("Puede utilizar Crtl+P");
+	}
+
+	<title>Imprimir con JavaScript</title>
+
+<body>
+<center>
+	<h1>IMPRIMIR CON JAVASCRIPT</h1>
+	<P><input type="button" name="imprimir" value="Presione para imprimir" onClick="javascript:imprimir();"></P>
+</center>
+
+</body>
