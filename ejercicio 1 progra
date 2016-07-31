@@ -1,0 +1,4 @@
+# ejercicios1-programacion
+
+var d = new Date();
+document.write('Fecha: '+d.getDate(),'<br>hoy es : '+d.getDay(),'<br>Hora: '+d.getHours(),'<br>Minutos: '+d.getMinutes(),'<br>Segundos: '+d.getSeconds());
