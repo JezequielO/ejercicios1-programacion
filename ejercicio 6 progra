@@ -1,0 +1,15 @@
+var oculto=Math.round(10*Math.random()+1);
+for ( i=1; ; i++ ) {
+   var x=prompt(i+". Anota un Número del 1 al 10:","");
+   if ( !x )
+	break;
+   if ( x < oculto ) {
+	alert("Buen trabajo");
+   } else if ( x > oculto ) {
+	alert("No corresponde");
+   } else {
+	alert("Ganaste!! en "+i+" intentos");
+	break;
+   }
+}
+
