@@ -1,0 +1,8 @@
+<form name="operaciones">
+Número 1: <input id="num1" type="number"/>
+Número 2: <input id="num2" type="number"/>
+<br/><br/>
+<input type="button" value="MULTIPLICAR" onClick="operaciones('multiplicar'); return false;"/><br/>
+<input type="button" value="DIVIDIR" onclick="operaciones('dividir'); return false;"/>	
+
+</form>
