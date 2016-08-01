@@ -1,0 +1,25 @@
+<body>
+   
+   <script>
+   //ingresando base
+   Base=prompt('Ingrese el valor de la Base','');
+
+   //Ingresando altura
+   Altura=prompt('Ingrese el valor de la Altura','');
+   
+   //Calculando Area
+    Area=Base*Altura;
+
+   //Calculando Perimetro
+   Perimetro=(2*Altura)+(2*Base);
+   
+   //Calculando Longitud
+   Longitud=(2*Altura)+(2*Base);
+    
+    //Mostrando resultados
+   alert("El Area del triangulo es: "+Area);
+   alert("El Perimetro del triangulo es:"+Perimetro);
+   
+    </script>
+
+</body>
